@@ -64,3 +64,7 @@ The analysis is structured around six core operational dimensions:
 ### 4. Booking Behaviors
 * **Stay Duration:** How are stays distributed between weekend nights vs. weekday nights?
 * **Seasonality:** Which months or weeks observe peak booking activity?
+
+### 5. Preferences & Amenities
+* **Meal Plans:** What are the most frequently selected meal packages?
+* **Parking Requirements:** How does parking request frequency vary by customer segment?
