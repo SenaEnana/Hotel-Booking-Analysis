@@ -68,3 +68,9 @@ The analysis is structured around six core operational dimensions:
 ### 5. Preferences & Amenities
 * **Meal Plans:** What are the most frequently selected meal packages?
 * **Parking Requirements:** How does parking request frequency vary by customer segment?
+
+### 6. Adjustments & Special Requests
+* **Request Frequency:** How often do guests submit special requests?
+* **Modification Impact:** Do post-booking changes correlate with lower or higher cancellation rates?
+
+---
