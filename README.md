@@ -32,3 +32,8 @@ The dataset covers hotel booking details from resort and city properties. Below 
 | | `babies` | Number of babies | Integer |
 | | `country` | Country of origin (ISO code) | Categorical |
 | | `market_segment` | Market segment designation (e.g., Direct, Corporate, TA/TO) | Categorical |
+| **Preferences & Services** | `meal` | Type of meal booked (BB, HB, FB, Undefined/SC) | Categorical |
+| | `reserved_room_type` | Code of room type reserved | Categorical |
+| | `assigned_room_type` | Code for room type assigned at check-in | Categorical |
+| | `required_car_parking_spaces` | Number of car parking spaces requested | Integer |
+| | `total_of_special_requests` | Total number of special requests made by the guest | Integer |
