@@ -95,3 +95,7 @@ Building on the exploratory findings, the dataset supports the following predict
 3. **Customer Segmentation:** Forecast behavior and cancellation probability for specific customer tiers and hotel properties.
 
 ---
+
+## 🚀 Environment & Setup
+
+This analysis was built and executed in **Google Colab**. 
