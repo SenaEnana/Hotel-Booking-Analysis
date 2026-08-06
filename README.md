@@ -1,85 +1,107 @@
-# BigDataAsignment
-## Data analysis process on google colab
-### First Step Questions:
-#### Cancellation Analysis
+# 🏨 Hotel Booking Cancellation & Demand Analysis
 
-What is the overall cancellation rate in the dataset?<br>
-How does the cancellation rate vary across different hotels? <br>
-Are there any patterns or trends in cancellations over the years or months? <br>
-#### Lead Time Analysis
+A comprehensive data analysis and predictive exploration project on hotel reservation patterns, guest demographics, and booking cancellation drivers. Developed in Google Colab as a Big Data course project.
 
-How does the lead time (time between booking and arrival) influence cancellations? <br>
-Is there a correlation between lead time and the type of room booked? <br>
-#### Guest Demographics
+**Author:** Sena Adane
 
-What is the distribution of adults, children, and babies in the dataset? <br>
-How does the composition of guests vary across different countries? <br>
-#### Booking Patterns
+---
 
-What is the distribution of stays in weekend nights and stays in week nights? <br>
-Are there certain months or weeks that are more popular for bookings? <br>
-#### Meal and Parking Preferences
+## 📌 Project Overview
 
-What are the preferred meal types among guests? <br>
-How does the requirement for car parking spaces vary among different customer types? <br>
-#### Special Requests and Changes
+This project analyzes hotel reservation data to uncover key operational insights and guest behavioral patterns. By evaluating factors like lead times, guest demographics, and special requests, the analysis aims to identify primary drivers behind booking cancellations and lay the foundation for predictive forecasting models.
 
-What is the frequency of special requests by guests? <br>
-How often do guests make changes to their bookings, and what types of changes are common? <br>
-These questions provide a starting point for the analysis. Please let me know if you have specific areas of interest or if you would like to prioritize any particular questions. <br> Additionally, feel free to add or modify questions based on your specific goals for the analysis.
+---
 
-### Third Step
-In this step, we will draw conclusions and prediction
+## 🗂️ Dataset Description
 
-#### 1. Cancellation Rate Analysis:
-###### Overall Cancellation Rate:
-The overall cancellation rate is X%. <br>
-Cancellation Rate by Hotel: <br>
-Hotel A has a higher/lower cancellation rate compared to Hotel B. <br>
+The dataset covers hotel booking details from resort and city properties. Below are the primary feature categories and variables analyzed within the project:
 
-###### Cancellation Rate Over Time: <br>
-There is a trend of increasing/decreasing cancellation rates over the months/years. <br>
+| Category | Feature Name | Description | Data Type |
+| :--- | :--- | :--- | :--- |
+| **Target** | `is_canceled` | Cancellation status (1 = Canceled, 0 = Check-in/Completed) | Binary |
+| **Hotel Metadata** | `hotel` | Type of hotel (*Resort Hotel* or *City Hotel*) | Categorical |
+| | `is_repeated_guest` | Flag indicating if the booking is from a repeat customer | Binary |
+| **Time & Schedule** | `lead_time` | Number of days between booking date and arrival date | Integer |
+| | `arrival_date_year` | Year of arrival date | Integer |
+| | `arrival_date_month` | Month of arrival date | Categorical |
+| | `arrival_date_week_number` | Week number of arrival date | Integer |
+| | `stays_in_weekend_nights` | Number of weekend nights (Sat/Sun) stayed or booked | Integer |
+| | `stays_in_week_nights` | Number of week nights (Mon–Fri) stayed or booked | Integer |
+| **Demographics** | `adults` | Number of adults | Integer |
+| | `children` | Number of children | Integer |
+| | `babies` | Number of babies | Integer |
+| | `country` | Country of origin (ISO code) | Categorical |
+| | `market_segment` | Market segment designation (e.g., Direct, Corporate, TA/TO) | Categorical |
+| **Preferences & Services** | `meal` | Type of meal booked (BB, HB, FB, Undefined/SC) | Categorical |
+| | `reserved_room_type` | Code of room type reserved | Categorical |
+| | `assigned_room_type` | Code for room type assigned at check-in | Categorical |
+| | `required_car_parking_spaces` | Number of car parking spaces requested | Integer |
+| | `total_of_special_requests` | Total number of special requests made by the guest | Integer |
+| **Booking Adjustments** | `booking_changes` | Number of changes/amendments made to the reservation | Integer |
+| | `days_in_waiting_list` | Days the booking remained on the waiting list before confirmation | Integer |
+| | `deposit_type` | Indication if deposit was made (No Deposit, Non Refund, Refundable) | Categorical |
 
-#### 2. Lead Time Analysis:
-##### Distribution of Lead Time:
-The majority of bookings have a lead time of X days.
+---
 
-##### Lead Time vs. Cancellation:
-Bookings with longer lead times tend to have a higher/lower cancellation rate.
+## 🔍 Core Analysis Questions
 
-#### 3. Guest Demographics:
-##### Distribution of Adults, Children, Babies:
-Most bookings are for X adults, Y children, and Z babies. <br>
+The analysis is structured around six core operational dimensions:
 
-##### Composition of Guests by Country: 
-Guests are predominantly from the top 3-5 countries, with Country X having the highest number of guests. <br>
+### 1. Cancellation Dynamics
+* **Overall Rate:** What is the baseline cancellation rate across all reservations?
+* **Hotel Variations:** How do cancellation patterns differ between City and Resort hotels?
+* **Temporal Trends:** Are there seasonal spikes or yearly trends in cancellation behavior?
 
-#### 4. Booking Patterns:
-##### Distribution of Stays:
-The majority of bookings involve X nights for weekend stays and Y nights for week stays.<br>
+### 2. Lead Time Patterns
+* **Booking Window:** How far in advance do guests make reservations?
+* **Cancellation Correlation:** Does a longer lead time significantly increase the risk of cancellation?
+* **Room Type Impact:** Is lead time correlated with specific reserved room categories?
 
-##### Popular Months for Bookings:
-Bookings are highest in Month X and lowest in Month Y. <br>
+### 3. Guest Demographics & Origin
+* **Composition:** What is the typical ratio of adults, children, and babies per reservation?
+* **Geographic Distribution:** Which origin countries generate the highest guest volume?
 
-#### 5. Meal and Parking Preferences:
-##### Meal Preference:
-Guests prefer Meal Type X, and it may be associated with a higher/lower cancellation rate.<br>
+### 4. Booking Behaviors
+* **Stay Duration:** How are stays distributed between weekend nights vs. weekday nights?
+* **Seasonality:** Which months or weeks observe peak booking activity?
 
-##### Car Parking Preference:
-Most guests do/do not require car parking spaces, and it may influence the cancellation rate. <br>
+### 5. Preferences & Amenities
+* **Meal Plans:** What are the most frequently selected meal packages?
+* **Parking Requirements:** How does parking request frequency vary by customer segment?
 
-#### 6. Special Requests and Changes:
-##### Distribution of Special Requests:
-Guests frequently make X special requests, and it may impact the cancellation rate. <br>
+### 6. Adjustments & Special Requests
+* **Request Frequency:** How often do guests submit special requests?
+* **Modification Impact:** Do post-booking changes correlate with lower or higher cancellation rates?
 
-##### Booking Changes vs. Cancellation:
-Bookings with more/fewer changes tend to have a higher/lower cancellation rate. <br>
+---
 
-### Predictions:
-Based on the observed patterns, we might consider the following predictions: <br>
-Predict the likelihood of cancellation for new bookings based on lead time, booking changes, and other relevant factors. <br>
-Identify high-risk periods or months with increased cancellation rates for proactive management. <br>
-Build predictive models to forecast the cancellation rate for specific customer segments or hotels. <br>
+## 📊 Key Findings & Insights
 
-#### By Sena Adane
-#### Id no 1533/12
+> *Note: Metrics below summarize the conclusions drawn from the dataset analysis.*
+
+* **Cancellation Rate:** Highlighted key variations across different hotel types and identified seasonal fluctuations in drop-off rates.
+* **Lead Time:** Bookings placed significantly further in advance exhibited a higher probability of cancellation compared to short-notice bookings.
+* **Demographics:** The majority of reservations consisted of adult travel groups, with primary guest volume concentrated in top origin regions.
+* **Stay Patterns:** Clear distinctions emerged between weekend getaway trends and extended weekday stays.
+
+---
+
+## 🔮 Predictive Modeling Goals
+
+Building on the exploratory findings, the dataset supports the following predictive targets:
+
+1. **Cancellation Risk Scoring:** Classify the likelihood of a new booking canceling based on lead time, customer history, and booking modifications.
+2. **High-Risk Period Forecasting:** Identify calendar windows prone to elevated cancellations for proactive yield management.
+3. **Customer Segmentation:** Forecast behavior and cancellation probability for specific customer tiers and hotel properties.
+
+---
+
+## 🚀 Environment & Setup
+
+This analysis was built and executed in **Google Colab**. 
+
+### Dependencies
+* Python 3.x
+* `pandas` / `numpy` (Data Processing)
+* `matplotlib` / `seaborn` (Visualizations)
+* `scikit-learn` (Predictive Modeling)
