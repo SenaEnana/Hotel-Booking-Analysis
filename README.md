@@ -99,3 +99,9 @@ Building on the exploratory findings, the dataset supports the following predict
 ## 🚀 Environment & Setup
 
 This analysis was built and executed in **Google Colab**. 
+
+### Dependencies
+* Python 3.x
+* `pandas` / `numpy` (Data Processing)
+* `matplotlib` / `seaborn` (Visualizations)
+* `scikit-learn` (Predictive Modeling)
