@@ -51,3 +51,8 @@ The analysis is structured around six core operational dimensions:
 * **Overall Rate:** What is the baseline cancellation rate across all reservations?
 * **Hotel Variations:** How do cancellation patterns differ between City and Resort hotels?
 * **Temporal Trends:** Are there seasonal spikes or yearly trends in cancellation behavior?
+
+### 2. Lead Time Patterns
+* **Booking Window:** How far in advance do guests make reservations?
+* **Cancellation Correlation:** Does a longer lead time significantly increase the risk of cancellation?
+* **Room Type Impact:** Is lead time correlated with specific reserved room categories?
