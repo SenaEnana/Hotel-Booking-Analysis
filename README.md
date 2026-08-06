@@ -27,3 +27,8 @@ The dataset covers hotel booking details from resort and city properties. Below 
 | | `arrival_date_week_number` | Week number of arrival date | Integer |
 | | `stays_in_weekend_nights` | Number of weekend nights (Sat/Sun) stayed or booked | Integer |
 | | `stays_in_week_nights` | Number of week nights (Mon–Fri) stayed or booked | Integer |
+| **Demographics** | `adults` | Number of adults | Integer |
+| | `children` | Number of children | Integer |
+| | `babies` | Number of babies | Integer |
+| | `country` | Country of origin (ISO code) | Categorical |
+| | `market_segment` | Market segment designation (e.g., Direct, Corporate, TA/TO) | Categorical |
