@@ -60,3 +60,7 @@ The analysis is structured around six core operational dimensions:
 ### 3. Guest Demographics & Origin
 * **Composition:** What is the typical ratio of adults, children, and babies per reservation?
 * **Geographic Distribution:** Which origin countries generate the highest guest volume?
+
+### 4. Booking Behaviors
+* **Stay Duration:** How are stays distributed between weekend nights vs. weekday nights?
+* **Seasonality:** Which months or weeks observe peak booking activity?
