@@ -18,4 +18,12 @@ The dataset covers hotel booking details from resort and city properties. Below 
 
 | Category | Feature Name | Description | Data Type |
 | :--- | :--- | :--- | :--- |
-| **Target** | `is_canceled` | Cancellation status (1 = Canceled, 0 = Check-in/Completed) | 
+| **Target** | `is_canceled` | Cancellation status (1 = Canceled, 0 = Check-in/Completed) | Binary |
+| **Hotel Metadata** | `hotel` | Type of hotel (*Resort Hotel* or *City Hotel*) | Categorical |
+| | `is_repeated_guest` | Flag indicating if the booking is from a repeat customer | Binary |
+| **Time & Schedule** | `lead_time` | Number of days between booking date and arrival date | Integer |
+| | `arrival_date_year` | Year of arrival date | Integer |
+| | `arrival_date_month` | Month of arrival date | Categorical |
+| | `arrival_date_week_number` | Week number of arrival date | Integer |
+| | `stays_in_weekend_nights` | Number of weekend nights (Sat/Sun) stayed or booked | Integer |
+| | `stays_in_week_nights` | Number of week nights (Mon–Fri) stayed or booked | Integer |
