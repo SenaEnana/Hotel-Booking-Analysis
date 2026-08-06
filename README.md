@@ -42,3 +42,12 @@ The dataset covers hotel booking details from resort and city properties. Below 
 | | `deposit_type` | Indication if deposit was made (No Deposit, Non Refund, Refundable) | Categorical |
 
 ---
+
+## 🔍 Core Analysis Questions
+
+The analysis is structured around six core operational dimensions:
+
+### 1. Cancellation Dynamics
+* **Overall Rate:** What is the baseline cancellation rate across all reservations?
+* **Hotel Variations:** How do cancellation patterns differ between City and Resort hotels?
+* **Temporal Trends:** Are there seasonal spikes or yearly trends in cancellation behavior?
