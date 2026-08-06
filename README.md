@@ -37,3 +37,8 @@ The dataset covers hotel booking details from resort and city properties. Below 
 | | `assigned_room_type` | Code for room type assigned at check-in | Categorical |
 | | `required_car_parking_spaces` | Number of car parking spaces requested | Integer |
 | | `total_of_special_requests` | Total number of special requests made by the guest | Integer |
+| **Booking Adjustments** | `booking_changes` | Number of changes/amendments made to the reservation | Integer |
+| | `days_in_waiting_list` | Days the booking remained on the waiting list before confirmation | Integer |
+| | `deposit_type` | Indication if deposit was made (No Deposit, Non Refund, Refundable) | Categorical |
+
+---
