@@ -85,3 +85,13 @@ The analysis is structured around six core operational dimensions:
 * **Stay Patterns:** Clear distinctions emerged between weekend getaway trends and extended weekday stays.
 
 ---
+
+## 🔮 Predictive Modeling Goals
+
+Building on the exploratory findings, the dataset supports the following predictive targets:
+
+1. **Cancellation Risk Scoring:** Classify the likelihood of a new booking canceling based on lead time, customer history, and booking modifications.
+2. **High-Risk Period Forecasting:** Identify calendar windows prone to elevated cancellations for proactive yield management.
+3. **Customer Segmentation:** Forecast behavior and cancellation probability for specific customer tiers and hotel properties.
+
+---
