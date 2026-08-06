@@ -74,3 +74,14 @@ The analysis is structured around six core operational dimensions:
 * **Modification Impact:** Do post-booking changes correlate with lower or higher cancellation rates?
 
 ---
+
+## 📊 Key Findings & Insights
+
+> *Note: Metrics below summarize the conclusions drawn from the dataset analysis.*
+
+* **Cancellation Rate:** Highlighted key variations across different hotel types and identified seasonal fluctuations in drop-off rates.
+* **Lead Time:** Bookings placed significantly further in advance exhibited a higher probability of cancellation compared to short-notice bookings.
+* **Demographics:** The majority of reservations consisted of adult travel groups, with primary guest volume concentrated in top origin regions.
+* **Stay Patterns:** Clear distinctions emerged between weekend getaway trends and extended weekday stays.
+
+---
