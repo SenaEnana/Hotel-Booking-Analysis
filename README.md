@@ -15,3 +15,7 @@ This project analyzes hotel reservation data to uncover key operational insights
 ## 🗂️ Dataset Description
 
 The dataset covers hotel booking details from resort and city properties. Below are the primary feature categories and variables analyzed within the project:
+
+| Category | Feature Name | Description | Data Type |
+| :--- | :--- | :--- | :--- |
+| **Target** | `is_canceled` | Cancellation status (1 = Canceled, 0 = Check-in/Completed) | 
