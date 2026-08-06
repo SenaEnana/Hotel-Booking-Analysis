@@ -56,3 +56,7 @@ The analysis is structured around six core operational dimensions:
 * **Booking Window:** How far in advance do guests make reservations?
 * **Cancellation Correlation:** Does a longer lead time significantly increase the risk of cancellation?
 * **Room Type Impact:** Is lead time correlated with specific reserved room categories?
+
+### 3. Guest Demographics & Origin
+* **Composition:** What is the typical ratio of adults, children, and babies per reservation?
+* **Geographic Distribution:** Which origin countries generate the highest guest volume?
