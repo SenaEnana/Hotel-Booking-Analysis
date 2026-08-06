@@ -11,3 +11,7 @@ A comprehensive data analysis and predictive exploration project on hotel reserv
 This project analyzes hotel reservation data to uncover key operational insights and guest behavioral patterns. By evaluating factors like lead times, guest demographics, and special requests, the analysis aims to identify primary drivers behind booking cancellations and lay the foundation for predictive forecasting models.
 
 ---
+
+## 🗂️ Dataset Description
+
+The dataset covers hotel booking details from resort and city properties. Below are the primary feature categories and variables analyzed within the project:
