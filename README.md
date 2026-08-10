@@ -105,3 +105,9 @@ This analysis was built and executed in **Google Colab**.
 * `pandas` / `numpy` (Data Processing)
 * `matplotlib` / `seaborn` (Visualizations)
 * `scikit-learn` (Predictive Modeling)
+
+---
+
+## 👨‍💻 Author
+
+Sena Adane
